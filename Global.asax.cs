@@ -24,7 +24,7 @@ namespace CloudConnect.WebDemo
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            CloudConnect.CouchBaseProvider.CouchbaseManager.RegisterModelViews(new Assembly[] { Assembly.GetAssembly(typeof(CloudConnect.CouchBaseProvider.CouchbaseManager)) });
+            //CloudConnect.CouchBaseProvider.CouchbaseManager.RegisterModelViews(new Assembly[] { Assembly.GetAssembly(typeof(CloudConnect.CouchBaseProvider.CouchbaseManager)) });
         }
     }
 }

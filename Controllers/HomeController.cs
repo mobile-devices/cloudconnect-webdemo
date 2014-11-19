@@ -12,10 +12,10 @@ namespace CloudConnect.WebDemo.Controllers
     {
         public ActionResult Index()
         {
-            NotificationProvider np = new NotificationProvider();
-            IEnumerable<Notification> data = np.RequestNotificationCache("GENERIC", DateTime.UtcNow);
+           // NotificationRepository np = new NotificationRepository();
+            //IEnumerable<Notification> data = np.RequestNotificationCache("GENERIC");
 
-            Console.WriteLine(data.Count());
+           // Console.WriteLine(data.Count());
             //CloudConnect.CouchBaseProvider.CouchbaseManager.RegisterModelViews(new Assembly[] { Assembly.GetAssembly(typeof(CloudConnect.CouchBaseProvider.CouchbaseManager)) });
             //NotificationProvider np = new NotificationProvider();
              

@@ -13,8 +13,8 @@ namespace CloudConnect.WebDemo.Controllers
         // POST api/notifications
         public void Post([FromBody]string value)
         {
-            NotificationProvider np = new NotificationProvider();
-            np.PushNotificationCache("GENERIC", value, DateTime.UtcNow);
+            //NotificationRepository np = new NotificationRepository();
+            //np.PushNotificationCache("GENERIC", value, DateTime.UtcNow);
         }
     }
 }
